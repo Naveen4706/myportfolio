@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquires.css">
+</head>
+<body>
+<nav id="navbar">
+    <div class="logo"> Portfolio</div>
+    <div>
+     <ul class="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+    </div>
+</nav>
+
+<nav id="resnavbar">
+    <div class="logo"> Portfolio</div>
+    <div class="resmenu">
+        <div class="resicon"onclick="menuButton()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="reslinks" >
+            <li><a href="#about" onclick="menuButton()">About</a></li>
+            <li><a href="#projects" onclick="menuButton()" >Projects</a></li>
+            <li><a href="#contact" onclick="menuButton()" >Contact</a></li>
+        </div>
+    </div>
+
+</nav>
+
+<section id="profile">
+    <div class="profilepic">
+        <img src="assets/profile.png" alt="naveenkumarprofile">
+    </div>
+    <div class="myprofiletext">
+        <p>Hello I'am</p>
+        <h1>Naveenkumar V</h1>
+        <p>Frontend Developer</p>
+        <div class="contact-buttons">
+            <button onclick="window.open('./assets/Resume.pdf')">
+                Download CV
+            </button>
+        </div>
+    <div class="social-icons">
+        <img 
+        src="assets/github.png" 
+        alt="Github-profile"
+        onclick="location.href='https://github.com/Naveen4706'" 
+        >
+         <img 
+        src="assets/linkedin.png" 
+        alt="Linkedin-profile"
+        onclick="location.href='https://www.linkedin.com/in/naveenkumarv06/'">
+
+    </div>
+    </div>
+    
+</section>
+
+<section id="about">
+    <center><h1>About Me</h1></center>
+
+    <!--<div class="section-container">
+        <div class="about-pic">
+            <img src="assets/profile.png" alt="about-profile">
+        </div>-->
+
+        <div class="about-details">
+            <div class="about-container">
+                <div class="about-text">
+                  <img src="assets/experience.png" alt="experience-logo">
+                  <p>1 year of</p>
+                  <h2>Front end development</h2>
+                </div>
+               <div class="about-text">
+                  <img src="assets/education.png" alt="experience-logo">
+                  <p>B.tech</p>
+                  <h2>Information Technology</h2>
+                </div> 
+            </div>
+            <p>👨‍💻 I'm a passionate Frontend Developer with hands-on experience in HTML, CSS, JavaScript, Bootstrap, and Python. I enjoy turning ideas into interactive and user-friendly web applications. Problem-solving is my strength, and I love learning new technologies and applying them to real-world projects.
+
+ </div>
+    </div>
+
+</section>
+
+<section id =projects>
+    <center><h1> Projects</h1></center>
+
+    <div class="projects-section">
+        <div class="project-details">
+
+            <div class="projects">
+             <img src="assets/project 1.png" alt="project 1"> 
+            </div>
+            <h3>Project 1</h3>
+            <button onclick="location.href='https://github.com/Naveen4706/calculator.git'" >Github</button>
+
+        </div>
+
+        <div class="project-details">
+            <div class="projects">
+            <img src="assets/project 2.png" alt="project 1"> 
+            </div>
+            <h3>Project 2</h3>
+            <button onclick="location.href='https://github.com/Naveen4706/burgersamplewebsite.git'">Github</button>
+     </div>
+
+
+        <div class="project-details">
+            <div class="projects">
+             <img src="assets/project 3.png" alt="project 1"> 
+            </div>
+            <h3>Project 3</h3>
+            <button onclick="location.href='https://github.com/Naveen4706/samplepricetable.git'">Github</button>
+        </div>
+
+        
+    </div>
+
+</section>
+
+<section id="contact">
+   <center><h2>Contact</h2>
+    <div class="contact-section">
+    <div class="contact-upper-ctnr">
+        <div class="contact-ctnr">
+        <img src="assets/email.png" alt="">
+        <p><a href="mailto:naveenkumarvaratharajan@gmail.com">naveenkumarvaratharajan@gmail.com </a></p>
+        </div>
+        <div class="contact-ctnr">
+        <img src="assets/linkedin.png" alt="">
+        <p><a href="https://www.linkedin.com/in/naveenkumarv06/">Linked in</a></p>
+        </div>
+    </div>
+</div></center> 
+<footer>
+    <nav>
+    <div>
+     <ul class="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+    </div>
+    <p>Copyright © 2025. All Rights Reserved.</p>
+        
+    </nav>
+</footer>
+</section>
+
+    
+<script src="script.js"></script>    
+</body>
+</html>

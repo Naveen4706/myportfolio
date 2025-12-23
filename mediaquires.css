@@ -1,0 +1,17 @@
+@media screen and (max-width:1200px){
+   #navbar{
+    display: none;
+   }
+   #resnavbar{
+    display: flex;
+   }
+}
+
+@media scree and (max-width:1200px){
+   #profile{
+      display: block ;
+   }
+   section,section-container{
+      display: block;
+   }
+}
